@@ -1,149 +1,337 @@
 <html>
+
 <head>
-<style>
-#right{margin:15px 50px;font-size:20px;}
-#who{font-weight:bold;font-size:20px;margin-top:40px;margin-left:60px;}
-#robert{font-size:40px;margin-top:20px;font-weight:bold;margin-left:50px;}
-.design{font-size:17px;margin-left:30px;}
-#samsung{display:flex;justify-content:end;font-weight:bold;font-size:18px;padding:10px 0px;}
-#jansen{background-color:#FF5A06;height:550px;width:100%;padding:0px 30px;}
-*{margin:0px;
-padding:0px;
-box-sizing:border-box;
-}
-.kakaa{color:white;align-items:center;justify-content:center;display:flex;}
-.doraemon{background-color:#FF5A06;border-radius:2px; height:40px;width:120px;align-items:center;justify-content:center;display:flex;margin:10px 0px;}
-.tampoo{font-weight:bold;}
-.david{display:flex ;height:320px; width:270px;background-color:white;flex-direction:column;align-items:center;}
-#motu{justify-content:space-around;display:flex;}
-#alok{justify-content:center;display:flex;margin:35px 30px;flex-direction:column;align-items:flex-end;font-size:30px;font-weight:bold;}
-#dj{color:#FF5A06;justify-content:center;display:flex;margin:35px 0px;flex-direction:column;align-items:center;}
-.villain{color:white;font-size:22px;}
-#pilot{font-size:"2px";}
-*{
-margin:0px;
-padding:0px;
-}
-#hello{ background-color:green;width:100%;height:197px;align-items:center;justify-content:center;display:flex;
-flex-direction:column; }
-.services{color:white; font-size:35px;}
+    <style>
+        #right {
+            margin: 15px 50px;
+            font-size: 20px;
+        }
 
-.kavita{color:white;margin:11px 20px;}
-.family{color:white;margin:11px 20px; float:right;}
-#happy{display:flex; flex-direction:row; background-color:black; height:40px ;width:100%;}
-.santa{margin:40px 14px;}
-#abhi{color:white;margin:12px 14px;}
-#kaua{background-color:#FF5A06;height:45px; width:220px; color
-:white; margin:5px 23px; display:flex; border-radius:1px;}
-#sport{padding:19px 0px; margin:0pxpx 0px;}
-#champu{font-size:21px;color:white; padding:0px 25px;}
-.kalua{font-size:65px;color:white; padding:0px 19px;}
-#aarav{background:url("backgroundimg.jpg") no-repeat center;
-width:100%; padding:50px 19px;height:100%;}
-#abhishek{margin:7px 7px;}
-#shashwat{background-color:#FF5A06;height:37px; width:180px; color
-:white; float:right;margin:5px 23px; display:flex; border-radius:1px;}
-#mayank{
-display:flex;
-align-items:center;}
+        #who {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 60px;
+        }
 
-#tanu{
-margin:0px 13px;
-display:flex;
-}
-.bittu{
-font-size:19px;
-padding:0px 27px;
-}
-.aryan{
-display:flex; margin:5px 35px;
-}
+        #robert {
+            font-size: 40px;
+            margin-top: 20px;
+            font-weight: bold;
+            margin-left: 50px;
+        }
+
+        .design {
+            font-size: 17px;
+            margin-left: 30px;
+        }
+
+        #samsung {
+            display: flex;
+            justify-content: end;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 0px;
+        }
+
+        #jansen {
+            background-color: #FF5A06;
+            height: 550px;
+            width: 100%;
+            padding: 0px 30px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .kakaa {
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .doraemon {
+            background-color: #FF5A06;
+            border-radius: 2px;
+            height: 40px;
+            width: 120px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 10px 0px;
+        }
+
+        .tampoo {
+            font-weight: bold;
+        }
+
+        .david {
+            display: flex;
+            height: 320px;
+            width: 270px;
+            background-color: white;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #motu {
+            justify-content: space-around;
+            display: flex;
+        }
+
+        #alok {
+            justify-content: center;
+            display: flex;
+            margin: 35px 30px;
+            flex-direction: column;
+            align-items: flex-end;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #dj {
+            color: #FF5A06;
+            justify-content: center;
+            display: flex;
+            margin: 35px 0px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .villain {
+            color: white;
+            font-size: 22px;
+        }
+
+        #pilot {
+            font-size: "2px";
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #hello {
+            background-color: green;
+            width: 100%;
+            height: 197px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .services {
+            color: white;
+            font-size: 35px;
+        }
+
+        .kavita {
+            color: white;
+            margin: 11px 20px;
+        }
+
+        .family {
+            color: white;
+            margin: 11px 20px;
+            float: right;
+        }
+
+        #happy {
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            height: 40px;
+            width: 100%;
+        }
+
+        .santa {
+            margin: 40px 14px;
+        }
+
+        #abhi {
+            color: white;
+            margin: 12px 14px;
+        }
+
+        #kaua {
+            background-color: #FF5A06;
+            height: 45px;
+            width: 220px;
+            color: white;
+            margin: 5px 23px;
+            display: flex;
+            border-radius: 1px;
+        }
+
+        #sport {
+            padding: 19px 0px;
+            margin: 0pxpx 0px;
+        }
+
+        #champu {
+            font-size: 21px;
+            color: white;
+            padding: 0px 25px;
+        }
+
+        .kalua {
+            font-size: 65px;
+            color: white;
+            padding: 0px 19px;
+        }
+
+        #aarav {
+            background: url("backgroundimg.jpg") no-repeat center;
+            width: 100%;
+            padding: 50px 19px;
+            height: 100%;
+        }
+
+        #abhishek {
+            margin: 7px 7px;
+        }
+
+        #shashwat {
+            background-color: #FF5A06;
+            height: 37px;
+            width: 180px;
+            color: white;
+            float: right;
+            margin: 5px 23px;
+            display: flex;
+            border-radius: 1px;
+        }
+
+        #mayank {
+            display: flex;
+            align-items: center;
+        }
+
+        #tanu {
+            margin: 0px 13px;
+            display: flex;
+        }
+
+        .bittu {
+            font-size: 19px;
+            padding: 0px 27px;
+        }
+
+        .aryan {
+            display: flex;
+            margin: 5px 35px;
+        }
 
 
 
-a{text-decoration:none; color:black;}
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
-.nav{display:flex;
-align-items:center;
-}
-
-
-.container{
-background-color:white;
-height:500px;
-display:flex;
-
-}
-
-.left-container{
-/**border:2px solid black;**/
-height:500px;
-width:50%;
-padding:20px;
-}
-.right-container{
-/**border:2px solid black;**/
-height:500px;
-width:50%;
-}
+        .nav {
+            display: flex;
+            align-items: center;
+        }
 
 
-</style>
+        .container {
+            background-color: white;
+            height: 500px;
+            display: flex;
+
+        }
+
+        .left-container {
+            /**border:2px solid black;**/
+            height: 500px;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .right-container {
+            /**border:2px solid black;**/
+            height: 500px;
+            width: 50%;
+        }
+    </style>
 </head>
+
 <body>
-<div id="happy">
- <div class="kavita">+91 7835902973</div>
-<div class="kavita">|</div>
+    <div id="happy">
+        <div class="kavita">+91 7835902973</div>
+        <div class="kavita">|</div>
 
-<div class="family"> Flat 2% off on your construction estimate* Limited time offer!</div>
-</div>
-<br>
+        <div class="family"> Flat 2% off on your construction estimate* Limited time offer!</div>
+    </div>
+    <br>
 
-<div id="mayank">
+    <div id="mayank">
 
-<div id="tanu">
-<img src="aaravlogo.png" height="55" width="135" >
-</div>
-<div class="aryan">
+        <div id="tanu">
+            <img src="aaravlogo.png" height="55" width="135">
+        </div>
+        <div class="aryan">
 
-<a href="index.html" class="bittu">home</a>
-<a href="service.html" class="bittu">services +</a>
-<a href="project.html" class="bittu">projects</a>
-<a href="about.html" class="bittu">about</a>
-<a href="contact.html" class="bittu">contact</a>
+            <a href="index.html" class="bittu">home</a>
+            <a href="service.html" class="bittu">services +</a>
+            <a href="project.html" class="bittu">projects</a>
+            <a href="about.html" class="bittu">about</a>
+            <a href="contact.html" class="bittu">contact</a>
 
-</div>
-<div id="shashwat">
-<a href="#" id="abhishek">GET FREE ESTIMATE</a>
+        </div>
+        <div id="shashwat">
+            <a href="#" id="abhishek">GET FREE ESTIMATE</a>
 
-</div>
-</div>
-<br>
+        </div>
+    </div>
+    <br>
 
-<div id="hello">
-<a href="hhh" class="services" >SERVICES</a>
-<br>
-<br>
+    <div id="hello">
+        <a href="hhh" class="services">SERVICES</a>
+        <br>
+        <br>
 
-<a href="#" class="villain">Mera naam Aarav Singh h mai kaksha 8 me padhta hun mujhse milne ke liye 9289903796 pe <br><center>call krke ya whattsapp karke appointment lele DHANYABAD</center></a>
-</div>
-<div class="container">
-
-
-<image src="backgroundimg.jpg" class="left-container">
-
-<div  class="right-container">
-<div id="who">WHO WE ARE</div>
-<h2 id="robert">AMRR Infratech Pvt. Ltd.</h2>
-<br>
-<div id="right">AMRR Infratech Pvt Ltd is a Construction & Infrastructure Building firm based in Patna. “Enabling our clients  to give shape and substance to their vision is our core endeavor and  makes service our core competency.” Over a span of 10 years since our  inception (official inception in 2021), we have designed a variety of commercial, residential and  hotel projects all over Bihar. AMRR Infratech Pvt Ltd is a flagship  company & One of the emerging leaders in the field of infrastructure  development & environment management. Since the incorporation of  its business, the Company has proudly completed a wide range of  construction and infrastructure projects in various sectors such as  water and wastewater, transportation (including terminals), irrigation,  industrial construction (including SEZs & industrial parks), power  transmission and distribution, buildings (including residential,  commercial & retail property). AMRR Infratech Pvt Ltd operates  mainly in three principal business segments, the Construction Business  is operated directly by the Company and the Developer business is  operated through its subsidiaries & associates.
-</div>
-</div>
+        <a href="#" class="villain">Mera naam Aarav Singh h mai kaksha 8 me padhta hun mujhse milne ke liye 9289903796
+            pe <br>
+            <center>call krke ya whattsapp karke appointment lele DHANYABAD</center>
+        </a>
+    </div>
+    <div class="container">
 
 
+        <image src="backgroundimg.jpg" class="left-container">
+
+            <div class="right-container">
+                <div id="who">WHO WE ARE</div>
+                <h2 id="robert">AMRR Infratech Pvt. Ltd.</h2>
+                <br>
+                <div id="right">AMRR Infratech Pvt Ltd is a Construction & Infrastructure Building firm based in Patna.
+                    “Enabling our clients to give shape and substance to their vision is our core endeavor and makes
+                    service our core competency.” Over a span of 10 years since our inception (official inception in
+                    2021), we have designed a variety of commercial, residential and hotel projects all over Bihar. AMRR
+                    Infratech Pvt Ltd is a flagship company & One of the emerging leaders in the field of infrastructure
+                    development & environment management. Since the incorporation of its business, the Company has
+                    proudly completed a wide range of construction and infrastructure projects in various sectors such
+                    as water and wastewater, transportation (including terminals), irrigation, industrial construction
+                    (including SEZs & industrial parks), power transmission and distribution, buildings (including
+                    residential, commercial & retail property). AMRR Infratech Pvt Ltd operates mainly in three
+                    principal business segments, the Construction Business is operated directly by the Company and the
+                    Developer business is operated through its subsidiaries & associates.
+                </div>
+            </div>
 
 
 
-</div>
+
+
+    </div>
 </body>
+
 </html>
